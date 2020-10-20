@@ -43,3 +43,14 @@ while(scanf("%d", &a[b]) ==2){
         b++;
        }
 ```       
+
+
+##  print entire array each element in newline.
+
+```
+int i;
+    for(i=0;i<size;i++)
+    {
+        printf("%d\n", a[i]);
+    }
+```    
