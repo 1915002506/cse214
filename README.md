@@ -18,4 +18,13 @@
    *Variable Declearation.
    *Array Declearation or initialization.
    *Inserting value.
-   *
+   *Insert value & position.
+   *Update index with another value.
+   *Search a value.
+   *Search operation with index.
+   *Delete a value from Kth index.
+   *Delete a value of an index and shift all other value in the left.
+   *Delete a value before(First occurrence).
+   *Delete & Search an value after(First occurrence).
+   *Delete all the occurrence.
+```   
