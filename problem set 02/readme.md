@@ -14,3 +14,26 @@ int size = 10;
 ```
 int a[100] = {1,2,3,4,5,6,7,8,9,10};
 ```
+
+
+## Inserting value
+
+```
+int a{100]={1,2,3,4,5,6,7,8,9,10}, size= 10;
+X = Index;
+A[k]=x;  // value assgin
+  for(i=0;i<size;i++)
+  {printf("%d", a[i];}
+  
+  
+  ## Insert value & position
+  
+  ```
+  scanf("%d", &x);  // insert value
+  scanf("%d", &k);  // insert position
+     for (i=size;i>=k;i--)
+     a[i] = a[i-1];
+     
+     size++;
+     a[k-1]=x;
+     ```
