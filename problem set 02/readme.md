@@ -39,5 +39,14 @@ A[k]=x;  // value assgin
         a[k-1]=x;
   
  
+ ## update indez with another value
+ 
+ ```
+a[K] = X; /// updating "Kth" index with value "X"
+printf("After :\n");
+for(i=0;i<size;i++)
+{
+printf("%d ",a[i]);
+}
      
     
