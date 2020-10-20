@@ -68,3 +68,22 @@ for(i=0;i<size;i++)
      printf("\nNot Found\n");
     }
     ```
+
+## Search oparetion with index
+
+```
+index = -1;  /// if index is greater  -1 "found", if index  "not found"
+for(i=0;i<size;i++){
+      if(X == a[i])
+        {
+         index = i;
+        }
+    }
+     if(index==-1)
+    {
+     printf("%d",index);
+    } else
+    {
+     printf("%d",index);
+    }
+    ```
