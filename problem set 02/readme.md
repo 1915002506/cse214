@@ -50,7 +50,7 @@ printf("%d ",a[i]);
 }
  ```    
 
-## Search a value
+## Search a value with value
 
 ```
 flag=0; ///  flag changes  "found", if flag is zero "not found"
