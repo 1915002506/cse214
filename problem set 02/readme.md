@@ -49,3 +49,22 @@ for(i=0;i<size;i++)
 printf("%d ",a[i]);
 }
  ```    
+
+## Search a value
+
+```
+flag=0; ///  flag changes  "found", if flag is zero "not found"
+for(i=0;i<size;i++)
+    {
+      if(X == a[i]) /// X is the given value to find
+        {
+         flag = 1; }
+    }
+      if(flag==1)
+    {
+     printf("\nFound\n");
+    } else
+    {
+     printf("\nNot Found\n");
+    }
+    ```
