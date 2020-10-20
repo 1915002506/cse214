@@ -134,3 +134,25 @@ for(i=0;i<size;i++) {
       { printf("%d ",a[i]);
     }
 ```
+
+
+## Search and Delete an value after(First Occurrence)
+
+```
+for(i=0;i<size;i++){
+      if(X == a[i])  // searching  X is the value
+      {
+         index=i;
+         index++; // delete after so index increases
+         break;
+        }
+    }
+     for(i=index;i<size-1;i++)
+          {
+            a[i] = a[i+1];  // shift values to left
+          }
+           size--; // value deleted so size decreases
+      for(i=0;i<size;i++)
+      { printf("%d ",a[i]);
+      }
+```      
