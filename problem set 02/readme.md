@@ -67,8 +67,4 @@ for(i=0;i<size;i++)
     {
      printf("\nNot Found\n");
     }
-   
-      ```
-
-
-## Search 
+ ```
