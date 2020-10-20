@@ -88,3 +88,14 @@ for(i=0;i<size;i++){
      printf("%d",index);
     }
 ```
+
+
+## Delete a value from kth index
+
+```
+scanf("%d", &K);  //Insert Position
+
+for (i=K-1; i<size; i++)
+      a[i] = a[i+1];
+size--;
+```
