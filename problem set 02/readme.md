@@ -1,4 +1,4 @@
 ## Variable Declearation
-...
+...    
  int i, j;
- int x;
+  int x;
