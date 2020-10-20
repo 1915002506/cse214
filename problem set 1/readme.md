@@ -27,3 +27,19 @@ int main(){
  return 0;
 }
 ```
+
+
+## scan values from an array user input is zero(0)
+
+```
+while(scanf("%d", &a[b]) ==2){
+        if(0 == a[b]){
+        break;
+       } else if (b>100)
+       {
+           printf("overflow");
+           break;
+       }else{
+        b++;
+       }
+```       
