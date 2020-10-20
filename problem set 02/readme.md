@@ -112,3 +112,25 @@ for(i=K;i<size-1;i++) {
         { printf("%d ",a[i]);
         }
 ```        
+
+
+## Delete a value before (First occurrence)
+
+```
+for(i=0;i<size;i++) {
+      if(X == a[i])  //  X is the value
+        {
+         index=i;
+         index--;// delete before so index decreases
+         break;
+        }
+    }
+     for(i=index;i<size-1;i++)
+          {
+            a[i] = a[i+1];  // shift values to left
+          }
+           size--; // value deleted so size decreases
+      for(i=0;i<size;i++)
+      { printf("%d ",a[i]);
+    }
+```
