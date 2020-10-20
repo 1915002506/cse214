@@ -10,3 +10,12 @@
   *Each element separated by coma(,).
   *Print the array in reverse order, separated by space.
 ```  
+
+
+## Problem set 02
+
+```
+   *Variable Declearation.
+   *Array Declearation or initialization.
+   *Inserting value.
+   *
