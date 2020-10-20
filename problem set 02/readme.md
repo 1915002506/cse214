@@ -99,3 +99,16 @@ for (i=K-1; i<size; i++)
       a[i] = a[i+1];
 size--;
 ```
+
+
+## Delete a value of an index and shift all other value in the left
+```
+k--; /// K is the the index number 
+for(i=K;i<size-1;i++) {
+          a[i] = a[i+1]; /// shift values to left
+        }
+         size--;
+        for(i=0;i<size;i++)
+        { printf("%d ",a[i]);
+        }
+```        
