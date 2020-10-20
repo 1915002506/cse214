@@ -79,3 +79,20 @@ for (i=0;a<size;i++)
             printf(",");
         }
 ```        
+
+
+## print the array in reverse order
+
+```
+for(i=0;i<size;i++)
+      {
+          printf("%d",a[i]);
+      }
+      printf("\n");
+
+        for(i=size-1;i>=0;i--)
+        {
+            printf("%d",a[i]);
+        }
+        printf("\n");
+```        
