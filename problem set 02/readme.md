@@ -156,3 +156,29 @@ for(i=0;i<size;i++){
       { printf("%d ",a[i]);
       }
 ```      
+
+
+## Delete all the occurrence
+
+```
+for( i=0; i<=size; i++){
+      if(X==array[i]){
+          for(j=i; j<=size; j++){
+              array[j] = array[j+1];
+          }
+          size--;
+          tag++;
+          i--;
+      }
+  }
+  
+if(tag==0){
+      printf("Not Found");
+  }
+  else{
+      for(i=0; i<size; i++)
+          printf("%d ",array[i]);
+  }
+```  
+  
+  
