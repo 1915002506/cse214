@@ -66,3 +66,16 @@ int a[100]={1,2,3,4,5,6,7,8,9,10};
         printf("%d\n", a[i]);
         }
  ```       
+
+
+## Each element separated by comma(,)
+
+```
+for (i=0;a<size;i++)
+    {
+        printf("%d", a[i]);
+        if (a<=size-2)
+        {
+            printf(",");
+        }
+```        
