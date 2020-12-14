@@ -281,3 +281,22 @@ node *merge_list(node *list1, node *list2)
     return head;
 }
 ```
+
+
+## .Define a function to merge two sorted Linked List into a sorted Linked List. Display all the list before and after merging.
+
+```
+node *merge_list(node *list1, node *list2)
+{
+    node *head, *temp, *new_node;
+
+    head = create_list1(list1);
+    temp = head;
+
+    while(temp -> next)
+    {
+        temp = temp -> next;
+    }
+    temp -> next = create_list2(list2);
+    return head;
+    ```
