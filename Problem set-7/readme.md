@@ -150,3 +150,35 @@ void find_key(node *temp, int key)
         }
  }
  ```
+
+
+## Define a "Search" function to find a 'key' (take input 'key' from user). Return the position of the node if the search 'key' is found in the Linked List otherwise return -1.
+
+```
+int pos = search(head,key);
+
+       if(pos == -1)
+        {
+          printf("\n-1\n");
+        }
+
+       else
+        {
+         printf("\nPosition : %d\n",pos);
+        }
+int search(node *temp, int key)
+ {
+   int pos = 1;
+   while(temp)
+    {
+        if(temp->data == key)
+         {
+           return pos;
+         }
+      pos++;
+      temp = temp->next;
+    }
+
+    return -1;
+ }
+ ```
