@@ -65,3 +65,14 @@
    *Delete At
    *Delete All/Clear
 ```   
+
+
+## Problem set 9
+
+```
+  *Insert Back
+  *Insert Front
+  *Insert At
+  *Insert Before
+  *Insert After
+```  
