@@ -17,11 +17,25 @@ node *create_list()
    temp = temp->next;
    temp->data = 20;
    temp->next = (node*)malloc(sizeof(node));
-
    temp = temp->next;
    temp->data = 25;
    temp->next = NULL;
 
    return head;
+ }
+ ```
+
+
+## Define an "Empty" function to check whether the Linked List is Empty or Not.
+
+```
+int is_empty(node *temp)
+ {
+   if(temp == NULL)
+    {
+      return 1;
+    }
+
+    return 0;
  }
  ```
