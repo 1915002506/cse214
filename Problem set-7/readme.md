@@ -80,3 +80,45 @@ void back(node *temp)
     printf("\nBack Element : %d\n",temp->data);
  }
  ```
+
+
+## Define a function to display the nth element of the Linked List. Take input 'n' from user. (Check index out of range)[let, the first element n=1].
+
+```
+ if(is_empty(head) == 1)
+     {
+       printf("\n!!Linked List is Empty!!\n");
+     }
+
+    else if(is_empty(head) == 0)
+     {
+       printf("Enter n : ");
+       scanf("%d",&n);
+
+       if(n > 4)
+        {
+          printf("\n!!Index Out of Range!!\n");
+        }
+
+       else if(n <= 0)
+        {
+          printf("\n!!Invalid Index!!\n");
+        }
+
+       else
+        {
+          print_list_n(head, n);
+        }
+     }
+void print_list_n(node *temp, int pos)
+{
+  int n =1;
+  while(n <= pos)
+   {
+     printf("%d ",temp->data);
+     temp = temp->next;
+     n++;
+   }
+  printf("\n");
+}
+```
