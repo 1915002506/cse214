@@ -35,3 +35,40 @@ void print_List(Node* head){
     }
 }
 ```
+
+
+## Use Dynamic Memory Allocation to create three elements of the linked list and display(only value)the complete linked list using a function(check Empty list).
+
+```
+node* create_list()
+{
+
+    node *a,*b,*c;
+    a=(node*) malloc(sizeof(node));
+    b=(node*) malloc(sizeof(node));
+    c=(node*) malloc(sizeof(node));
+
+    a->data=2;
+    a->next=b;
+
+    b->data=4;
+    b->next=c;
+
+    c->data=6;
+    c->next=NULL;
+
+    return a;
+}
+
+void print_list(node* head){
+
+    node *temp;
+    temp = head;
+
+ while(temp!=NULL){
+    printf("%d\t",temp->data);
+    temp = temp->next;
+ }
+
+}
+```
