@@ -22,3 +22,16 @@ void print_node(node *p){
 printf("%p\t %d\t %p\n",&p, p->value, p->next);
 }
 ```
+
+
+## Define a function to display(only value for each node)the complete linked list and do the same as problem 1(Don't use DMA).
+
+```
+void print_List(Node* head){
+    Node* temp = head;
+         while(temp){
+         printf("%d\t",temp->data);
+         temp=temp->next;
+    }
+}
+```
