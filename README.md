@@ -54,3 +54,14 @@
    *Linked list Reverse
    *Linked list Merge
 ```
+
+
+## Problem set 8
+
+```
+   *Delete Back
+   *Delete Front
+   *Delete Value
+   *Delete At
+   *Delete All/Clear
+```   
