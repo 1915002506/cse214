@@ -299,4 +299,5 @@ node *merge_list(node *list1, node *list2)
     }
     temp -> next = create_list2(list2);
     return head;
-    ```
+    }
+```
