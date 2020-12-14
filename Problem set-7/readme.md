@@ -122,3 +122,31 @@ void print_list_n(node *temp, int pos)
   printf("\n");
 }
 ```
+
+
+## Define a "Search" function to find a 'key' (take input 'key' from user). Print "Found" if the search 'key' is found in the Linked List otherwise print "Not Found".
+
+```
+void find_key(node *temp, int key)
+ {
+   int count = 0;
+
+   while(temp)
+    {
+      if(key == temp->data)
+        {
+         count++;
+        }
+       temp = temp->next;
+    }
+
+      if(count == 0)
+        {
+          printf("\nNot Found\n");
+        }
+       else
+        {
+          printf("\nFound\n");
+        }
+ }
+ ```
