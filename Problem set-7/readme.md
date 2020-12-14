@@ -39,3 +39,20 @@ int is_empty(node *temp)
     return 0;
  }
  ```
+
+
+## Define a "Size" function to find the size of the Linked List.
+
+```
+void size(node *temp)
+ {
+   int count = 0;
+
+   while(temp)
+    {
+      temp = temp->next;
+      count++;
+    }
+    printf("\nLinked List Size : %d\n",count);
+ }
+ ```
