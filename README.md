@@ -28,3 +28,15 @@
    *Delete & Search an value after(First occurrence).
    *Delete all the occurrence.
 ```   
+
+
+## Problem set 6
+
+```
+   *Linked list Create
+   *Linked list Decleration
+   *Linked list Initialization
+   *Linked list Access
+   *Linked list Traverse
+   *Linked list Output Output
+   ```
