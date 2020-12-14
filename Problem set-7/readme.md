@@ -204,3 +204,16 @@ node *reverse_list(node* list1)
     return first;
 }
 ```
+
+
+## Define a search function to reverse the linked list using recursion function.Display both list before and after reversing.
+
+```
+void print_list_reverse(node *temp)
+{
+    if (temp != NULL) {
+        print_list_reverse(temp->next);
+        printf("%d ", temp->data);
+    }
+}
+```
