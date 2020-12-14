@@ -241,3 +241,21 @@ node *copy_list(node *list1)
     return head2;
  }
  ```
+
+
+## Copy a linked list into another list with a recursion function Display both list before and after copy.
+
+```
+node *copy_list_recursive(node *list1)
+{
+    if(list1 == NULL)
+    {
+        return NULL;
+    }
+    node *temp = (node*)malloc(sizeof(node));
+    temp->data = list1->data;
+    temp->next = copy_list_recursive(list1->next);
+
+    return temp;
+}
+```
