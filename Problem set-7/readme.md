@@ -182,3 +182,25 @@ int search(node *temp, int key)
     return -1;
  }
  ```
+
+
+## Define a function to reverse the Linked List.(Don’t use recursion}. Display both List before and after reversing.
+
+```
+node *reverse_list(node* list1)
+{
+    node *first, *current, *temp;
+    first = list1;
+    current = list1->next;
+    first->next = NULL;
+
+    while(current)
+    {
+        temp = current->next;
+        current->next = first;
+        first = current;
+        current = temp;
+    }
+    return first;
+}
+```
