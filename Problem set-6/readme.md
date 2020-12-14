@@ -72,3 +72,17 @@ void print_list(node* head){
 
 }
 ```
+
+
+## Define a function to display the compelete linked list with a recursive function using problem-04.
+
+```
+void print_list(node* head){
+
+    printf("%d\t",head->data);
+    if(head==NULL){
+        return;
+    }
+   print_list(head->next);
+}
+```
