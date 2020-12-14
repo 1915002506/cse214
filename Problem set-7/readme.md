@@ -56,3 +56,13 @@ void size(node *temp)
     printf("\nLinked List Size : %d\n",count);
  }
  ```
+
+
+## Define a " Front" function to display the First element of the Linked List.
+
+```
+void front(node *temp)
+ {
+    printf("\nFront Element : %d\n",temp->data);
+ }
+ ```
