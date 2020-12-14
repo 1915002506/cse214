@@ -259,3 +259,25 @@ node *copy_list_recursive(node *list1)
     return temp;
 }
 ```
+
+
+## Define a function to merge two Linked List. Display all the list before and after merging.
+
+```
+node *merge_list(node *list1, node *list2)
+{
+    node *head, *temp, *new_node;
+
+    head = copy_list(list1);
+
+    temp = head;
+
+    while(temp->next)
+    {
+        temp = temp->next;
+    }
+    temp->next = copy_list(list2);
+
+    return head;
+}
+```
