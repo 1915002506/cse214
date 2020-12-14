@@ -86,3 +86,31 @@ void print_list(node* head){
    print_list(head->next);
 }
 ```
+
+
+## Define a function to display the compelete linked list in reverse order with a recursive function using problem-04.
+
+```
+void display_complete_linkedlist(node *temp){
+if(temp!=NULL){
+
+
+while(temp!=NULL){
+    printf("\n%d  ",temp->value);
+    temp=temp->next;
+}
+}
+else
+{
+    is_empty(temp);
+}}
+void display_reverse_linkedlist(node *temp){
+if(temp==NULL){
+    return;
+}
+else{
+display_reverse_linkedlist(temp->next);
+printf("%d  \n",temp->value);
+}
+}
+```
