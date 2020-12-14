@@ -217,3 +217,27 @@ void print_list_reverse(node *temp)
     }
 }
 ```
+
+
+## Copy a linked list into another linked list.Display both list before and after copy.(Don't use recursion).
+
+```
+node *copy_list(node *list1)
+ {
+    node *head2, *temp;
+    temp = (node*)malloc(sizeof(node));
+    temp->data = list1->data;
+    temp->next = NULL;
+    head2 = temp;
+    list1 = list1->next;
+    while (list1)
+    {
+        temp->next = (node*)malloc(sizeof(node));
+        temp = temp->next;
+        temp->data = list1->data;
+        temp->next = NULL;
+        list1 = list1->next;
+    }
+    return head2;
+ }
+ ```
