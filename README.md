@@ -40,3 +40,16 @@
    *Linked list Traverse
    *Linked list Output Output
    ```
+
+
+## Problem set 7
+
+```
+  . Linked list Create
+Linked list Empty Check
+Linked list Size
+Linked list Front Element
+Linked list Back Element
+Linked list Search
+Linked list Reverse
+Linked list Merge
