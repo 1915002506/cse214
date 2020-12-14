@@ -66,3 +66,17 @@ void front(node *temp)
     printf("\nFront Element : %d\n",temp->data);
  }
  ```
+
+
+## Define a "Back" function to display the First element of the Linked List.
+
+```
+void back(node *temp)
+ {
+    while(temp->next)
+    {
+      temp = temp->next;
+    }
+    printf("\nBack Element : %d\n",temp->data);
+ }
+ ```
